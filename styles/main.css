@@ -2,6 +2,7 @@
 
 .global-con{
     width: 600px;
+    height: 1000px;
     
 }
 
@@ -18,7 +19,7 @@
     width: 100px;
     position: relative;
     left: 200px;
-    top: 5px;
+    top: 15px;
   }
 
 
@@ -48,7 +49,7 @@
 .bt1{
 position: relative;
 left: 940px;
-bottom: 30px;
+bottom: 20px;
 background-color: #000;
 color: #fff;
 padding: 10px 15px;
@@ -66,12 +67,14 @@ font-family: "Roboto", sans-serif;
 .bt2{
 position: relative;
 left: 950px;
-bottom: 30px;
+bottom: 20px;
 background-color: #e50914;
 color: #fff;
 padding: 10px 15px;
 border: none;
-border-radius: 5px;
+width: 100px;
+height: 35px;
+border-radius: 4px;
 font-size: x-small;
 font-family: "Roboto", sans-serif;
 }
@@ -110,7 +113,7 @@ font-family: "Roboto", sans-serif;
     left: 250px;
     font-size: 25px;
     font-weight: 700;
-    color: #4c4948;
+    color: #1f1e1d;
     line-height: 48px;
     font-family: "Roboto", sans-serif;
 }
@@ -118,7 +121,7 @@ font-family: "Roboto", sans-serif;
     position: relative;
     left: 250px;
     bottom: 25px ;
-    color: #4c4948;
+    color :#1f1e1d;
     font-family: "Roboto", sans-serif;
     line-height: 30px;
 }
@@ -127,7 +130,7 @@ font-family: "Roboto", sans-serif;
     left: 250px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    color: #4c4948;
+    color:  #1f1e1d;
 }
 .badge1{
     position: relative;
@@ -136,18 +139,18 @@ font-family: "Roboto", sans-serif;
 .badge2{
     position: relative;
     left: 405px;
-    bottom: 55px;
+    bottom: 58px;
   
 }
 .que{
     position: relative;
     left: 250px;
-    bottom: 34px;
+    bottom: 41px;
 }
 .le{
     display: inline;
     position: relative;
-    left: 335px;
+    left: 325px;
     bottom: 75px;
     color: #e50914;
     font-family: "Roboto", sans-serif;
@@ -170,24 +173,25 @@ text-decoration: underline;
     font-family: "Roboto", sans-serif;
 }
 .ph{
-    position: relative;
+    position: absolute;
     left: 250px;
-    bottom: 70px;
+    bottom: -50px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     font-family: "Roboto", sans-serif;
 }
 .callus{
-    position: relative;
+    position: absolute;
     left: 250px;
-    bottom: 70px;
+    bottom: -90px;
     color: #4c4948;
     font-family: "Roboto", sans-serif;
 }
 .callbt{
     position: relative;
     left: 250px;
-    bottom: 70px;
+    bottom: -30px;
+    height: 50px;
     color:#615e5d;
     font-weight: bolder;
     border-color:rgb(209, 205, 205);
@@ -206,28 +210,30 @@ text-decoration: underline;
 .hr2{
     position: relative;
     left: 250px;
-    bottom: 63px;
+    bottom: -50px;
     
 }
 .livechat{
-    position: relative;
+    position: absolute;
     left: 250px;
-    bottom: 60px;
+    top: 850px;
     font-weight: bold;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
 }
 .you{
-    position: relative;
+    position: absolute;
     left: 250px;
-    bottom: 70px;
+    top: 900px;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
 }
 .livechatbt{
-    position: relative;
+    position: absolute;
     left: 250px;
-    bottom: 59px;
+    width: 200px;
+    height: 60px;
+    top: 955px;
     color:#615e5d;
     font-weight: bolder;
     border-color:rgb(209, 205, 205);
@@ -245,8 +251,139 @@ text-decoration: underline;
     left: 920px;
     font-size: 16px;
     font-weight: 700;
-    color: #4c4948;
+    color: #1d1b1a;
     line-height: 48px;
     font-family: "Roboto", sans-serif;
-    bottom: 786px;
+    bottom: 570px;
+}
+.olu{
+    position: relative;
+    left: 900px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1d1b1a;
+    line-height: 36px;
+    font-family: "Roboto", sans-serif;
+    bottom: 585px;
+}
+li:hover{
+    color: #e50914;
+    text-decoration: underline;
+}
+.find{
+    position: relative;
+    left: 900px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1919;
+    bottom: 538px;
+    font-family: "Roboto", sans-serif;
+}
+.input1{
+    position: relative;
+    left: 900px;
+    bottom: 535px;
+    border-color: rgb(209, 205, 205);
+    width: 45%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    border-width: thin;
+    
+}
+input::content{
+    border-width: thin;
+}
+.global-footer{
+    position: absolute;
+    top: 1200px;
+    width: 1400px;
+    height: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    
+    background: #221f1f;
+}
+.selectd{
+    color: #8b8a88;
+    position: absolute;
+    left: 250px;
+    text-transform: uppercase;
+    border-color: rgb(209, 205, 205);
+    width: 45%;
+    
+  
+    font-family: "Roboto", sans-serif;
+    
+}
+select{
+    height: 55px;
+    width: 230px;
+    border-width: thin;
+    border-radius: 4px;
+    background-color: #221f1f;
+    color: #8a8787;
+    padding: 20px 10px 15px;
+    margin: 40px 0 40px 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+}
+select:hover{
+    background-color: #e6e4e3;
+}
+.lastone{
+    
+    position: relative;
+    left: 900px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4{
+    color: #8a8787;
+    top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.p1{
+    position: absolute;
+    left: -200px;
+    
+}
+
+.p1:hover{
+    color: #dcdada;
+    text-decoration: underline;
+}
+
+.p2{
+    position: absolute;
+    left: -100px;
+}
+
+.p2:hover{
+    color: #dcdada;
+    text-decoration: underline;
+}
+
+.p3{
+    position: absolute;
+    left: -10px;
+}
+.p3:hover{
+    color: #dcdada;
+    text-decoration: underline;
+}
+
+.p4{
+    position: absolute;
+    left: 150px;
+}
+.p4:hover {
+    color: #dcdada;
+    text-decoration: underline;
 }
