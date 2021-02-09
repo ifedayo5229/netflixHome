@@ -1,24 +1,27 @@
-* {box-sizing: border-box}
-
-.global-con{
-    width: 600px;
-    height: 1000px;
+html, body{
+    width: 150%;
+    margin: 0px;
+    padding:0px;
+    overflow-x: hidden;
     
 }
+
+
 
 
 .main-header{
     position: relative;
     background-color: #000;
     color: #fff;
-    width: 1400px;
+    width: 45%;
     height: 65px;
 }
+
 .netflix-logo {
     fill: #e50914;
     width: 100px;
-    position: relative;
-    left: 200px;
+    position: absolute;
+    left: 13%;
     top: 15px;
   }
 
@@ -26,7 +29,7 @@
 .help{
     display: inline;
     position: relative;
-    left: 220px;
+    left: 300px;
     top: 5px;
     font-family: "Roboto", sans-serif;
   
@@ -40,7 +43,7 @@
     display: inline;
     position: relative;
     top: 10px;
-    left: 210px;
+    left: 290px;
     height: 30px;
     font-size: 30px;
     font-weight: lighter;
@@ -48,7 +51,7 @@
 }
 .bt1{
 position: relative;
-left: 940px;
+left: 900px;
 bottom: 20px;
 background-color: #000;
 color: #fff;
@@ -66,7 +69,7 @@ font-family: "Roboto", sans-serif;
 
 .bt2{
 position: relative;
-left: 950px;
+left: 920px;
 bottom: 20px;
 background-color: #e50914;
 color: #fff;
@@ -82,7 +85,7 @@ font-family: "Roboto", sans-serif;
 
 .ar{
     position: relative;
-    left: 250px;
+    left: 180px;
     top: 20px;
     color: #e50914;
     font-family: "Roboto", sans-serif;
@@ -91,7 +94,7 @@ font-family: "Roboto", sans-serif;
     display: inline;
     position: relative;
     top: -15px;
-    left: 270px;
+    left: 195px;
     color: #e50914;
     font-family: "Roboto", sans-serif;
     width: max-content;
@@ -102,7 +105,7 @@ font-family: "Roboto", sans-serif;
 }
 .co{
     position: relative;
-    left: 250px;
+    left: 195px;
     font-size: 32px;
     font-weight: 700;
     line-height: 48px;
@@ -110,7 +113,7 @@ font-family: "Roboto", sans-serif;
 }
 .net{
     position: relative;
-    left: 250px;
+    left: 195px;
     font-size: 25px;
     font-weight: 700;
     color: #1f1e1d;
@@ -119,7 +122,7 @@ font-family: "Roboto", sans-serif;
 }
 .contact{
     position: relative;
-    left: 250px;
+    left: 195px;
     bottom: 25px ;
     color :#1f1e1d;
     font-family: "Roboto", sans-serif;
@@ -127,30 +130,31 @@ font-family: "Roboto", sans-serif;
 }
 .do{
     position: relative;
-    left: 250px;
+    left: 195px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color:  #1f1e1d;
 }
 .badge1{
     position: relative;
-    left: 250px;
+    left: 195px;
 }
 .badge2{
     position: relative;
-    left: 405px;
-    bottom: 58px;
+    left: 360px;
+    bottom: 50px;
+    
   
 }
 .que{
     position: relative;
-    left: 250px;
+    left: 195px;
     bottom: 41px;
 }
 .le{
     display: inline;
     position: relative;
-    left: 325px;
+    left: 270px;
     bottom: 75px;
     color: #e50914;
     font-family: "Roboto", sans-serif;
@@ -160,13 +164,14 @@ text-decoration: underline;
 }
 .hr1{
     position: relative;
-    left: 250px;
+right: 1015px;
     bottom: 70px;
+    width: 20%;
     font-weight: bolder;
 }
 .call{
     position: relative;
-    left: 250px;
+    left: 195px;
     bottom: 60px;
     font-weight: bold;
     font-size: 25px;
@@ -174,7 +179,7 @@ text-decoration: underline;
 }
 .ph{
     position: absolute;
-    left: 250px;
+    left: 195px;
     bottom: -50px;
     font-weight: bold;
     font-size: 18px;
@@ -182,14 +187,14 @@ text-decoration: underline;
 }
 .callus{
     position: absolute;
-    left: 250px;
+    left: 195px;
     bottom: -90px;
     color: #4c4948;
     font-family: "Roboto", sans-serif;
 }
 .callbt{
     position: relative;
-    left: 250px;
+    left: 195px;
     bottom: -30px;
     height: 50px;
     color:#615e5d;
@@ -209,13 +214,15 @@ text-decoration: underline;
 }
 .hr2{
     position: relative;
-    left: 250px;
-    bottom: -50px;
+        bottom: -50px;
+    right: 1015px;
+   
+    width: 20%;
     
 }
 .livechat{
     position: absolute;
-    left: 250px;
+    left: 195px;
     top: 850px;
     font-weight: bold;
     font-size: 25px;
@@ -223,14 +230,14 @@ text-decoration: underline;
 }
 .you{
     position: absolute;
-    left: 250px;
+    left: 195px;
     top: 900px;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
 }
 .livechatbt{
     position: absolute;
-    left: 250px;
+    left: 195px;
     width: 200px;
     height: 60px;
     top: 955px;
@@ -284,7 +291,7 @@ li:hover{
     left: 900px;
     bottom: 535px;
     border-color: rgb(209, 205, 205);
-    width: 45%;
+    width: 10%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border-radius: 4px;
@@ -298,7 +305,7 @@ input::content{
 .global-footer{
     position: absolute;
     top: 1200px;
-    width: 1400px;
+    width: 100%;
     height: 300px;
     font-size: 14px;
     font-weight: 400;
@@ -308,7 +315,7 @@ input::content{
 .selectd{
     color: #8b8a88;
     position: absolute;
-    left: 250px;
+    left: 195px;
     text-transform: uppercase;
     border-color: rgb(209, 205, 205);
     width: 45%;
